@@ -132,4 +132,8 @@ public class OrderServiceImpl implements IOrderService {
         BoundValueOperations<Object,Object> name = redisTemplate.boundValueOps("name");
         name.set("a",10, TimeUnit.SECONDS);//过期时间10秒
     }
+
+    public void test_git(){
+
+    }
 }
